@@ -2,7 +2,11 @@
 GENERAL
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-
+.wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
 
 
@@ -23,8 +27,11 @@ NAV
 /* - - - - - - - - - - - - - - - - - - - - - - - -
 HERO
 - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
+.hero {
+  background-color: #999;
+  padding: 40px 0px;
+  height: 400px;
+}
 
 
 
@@ -33,7 +40,9 @@ HERO
 /* - - - - - - - - - - - - - - - - - - - - - - - -
 MAIN SECTION
 - - - - - - - - - - - - - - - - - - - - - - - - */
-
+.main {
+  padding: 40px 0px;
+}
 
 
 
@@ -45,3 +54,11 @@ MAIN SECTION
 /* - - - - - - - - - - - - - - - - - - - - - - - -
 FOOTER
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
+footer {
+  background-color: #333;
+  padding: 40px 0px;
+}
+footer a {
+  display: block;
+}
