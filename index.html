@@ -10,24 +10,20 @@
     <link rel="stylesheet" href="css/mystyles.css"
   </head>
   <body>
+
+    <!-- MOBILE NAV BAR -->
+
+
+
     <!-- DESKTOP NAV BAR -->
 
-    <nav class="top-bar">
+    <nav class="top-bar nav-desktop">
+      <section class="wrap-hero">
 
-      <section class="wrap">
         <div class="top-bar-left">
-          <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <button class="menu-icon light" type="button" data-toggle></button>
-          </span>
-          <h3>Chris Prochnow</h3>
+          <h3 class="site-logo">Chris Prochnow</h3>
         </div>
 
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
         </div>
       </div>
 
@@ -36,36 +32,82 @@
     <!-- HERO SECTION -->
 
     <section class="hero">
-      <div class="wrap">
-        <h1>Welcome and Stuff</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <a href="#" class="button">Learn More</a>
-        <a href="#" class="button success">Option</a>
+      <div class="wrap-hero row">
+        <div class="media-object">
+          <div class="media-object-section small-12 medium-5 large-3 column">
+            <img src= "img/me.jpg" alt="Photo of Chris Prochnow" class="image">
+          </div>
+          <div class="media-object-section small-12 medium-7 offset-1 large-9 column">
+            <h4>Web Developer</h4>
+            <p>I'm a full stack developer working with JavaScript and Ruby on Rails to build all kinds of web experiences. I'm a passionate and engaging problem-solver who loves working in collaborative teams towards impactful solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-hero row">
+        <ul class="portfolio-hero-header-menu">
+          <li><a class="button" href="#">Link 1</a></li>
+          <li><a class="button" href="#">Link 2</a></li>
+          <li><a class="button" href="#">Link 3</a></li>
+        </ul>
       </div>
     </section>
 
     <!-- MAIN SECTION -->
 
     <section class="main">
-      <div class="wrap row">
-        <div class="small-12 medium-6 column">
-          <h3>Project 1</h3>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <a href="#" class="button">Learn More</a>
-          <a href="#" class="button success">Option</a>
+      <div class="wrap-project row">
+        <div class="small-12 medium-6 large-3 column">
+          <div class="card text-center">
+            <h5>Recuperator</h5>
+            <div class="thumbnail">
+              <a href="https://recuperator.herokuapp.com/">
+               <img src="img/recuperator.png">
+              </a>
+            </div>
+            <a href="#" class="button float-left">Learn More</a>
+            <a href="#" class="button success float-right">Option</a>
+          </div>
         </div>
 
-        <div class="small-12 medium-6 column">
-          <h3>Project 2</h3>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <a href="#" class="button">Learn More</a>
-          <a href="#" class="button success">Option</a>
+        <div class="small-12 medium-6 large-3 column">
+          <div class="card text-center">
+            <h5>Actividay</h5>
+            <div class="thumbnail">
+              <a href="https://actividay.herokuapp.com/welcome">
+               <img src="img/actividay.gif">
+              </a>
+            </div>
+            <a href="#" class="button float-left">Learn More</a>
+            <a href="#" class="button success float-right">Option</a>
+          </div>
         </div>
+
+        <div class="small-12 medium-6 large-3 column">
+          <div class="card text-center">
+            <h5>Vagabond</h5>
+            <div class="thumbnail">
+              <a href="https://vagabondapp1.herokuapp.com/cities">
+               <img src="img/vagabond.png">
+              </a>
+            </div>
+            <a href="#" class="button float-left">Learn More</a>
+            <a href="#" class="button success float-right">Option</a>
+          </div>
+        </div>
+
+        <div class="small-12 medium-6 large-3 column">
+          <div class="card text-center">
+            <h5>carShip Space Race</h5>
+            <div class="thumbnail">
+              <a href="https://carship-space-race.herokuapp.com/">
+               <img src="img/carShip.gif">
+              </a>
+            </div>
+            <a href="#" class="button float-left">Learn More</a>
+            <a href="#" class="button success float-right">Option</a>
+          </div>
+        </div>
+
       </div>
 
     </section>
